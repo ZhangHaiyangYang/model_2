@@ -1,0 +1,306 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{margin:0;padding:0}
+body{font:0.12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#172c45;text-decoration:none}
+a:hover{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;}
+html,body{
+	height: 100%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+header{
+	height: 2.33rem;
+	background: url(../img/12.png);
+	background-size: 0.61rem 0.48rem;
+}
+
+section{
+	background:#f4f4f4 ;
+	flex: 1;
+	overflow: auto;
+}
+
+footer{
+	height: 0.98rem;
+	background: #f8f8f8;
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+header h1{
+height: 0.8rem;
+display: flex;
+justify-content: flex-end;
+
+align-items: center;
+font-size: 0.37rem;
+line-height: 0.8rem;
+
+	
+}
+
+header h1 span:nth-child(1)
+{
+	margin-right: 0.44rem;
+}
+header h1 span:nth-child(2)
+{
+	margin-right: 0.33rem;
+}
+header figure{
+	height: 1.15rem;
+	width: 7.2rem;
+	margin-left: 0.3rem;
+	display: flex;
+	justify-content: flex-start;
+}
+header figure img{
+	width: 1.16rem;
+	height: 1.15rem;
+	float: left;
+}
+ header figure figcaption{
+	 margin-left: 0.38rem;
+	 margin-top: 0.14rem;
+	 color: black;
+ }
+header figure figcaption  p{
+	font-size: 0.25rem;
+	line-height: 0.45rem;
+	
+}
+header figure figcaption  span{
+	font-size: 0.25rem;
+	line-height: 0.45rem;
+	
+	
+}
+header figure figcaption .icon-jiantou{
+	font-size: 0.25rem;
+	line-height: 0.45rem;
+}
+section article:nth-of-type(1)
+{
+	height: 2.95rem;
+	background: #fff;
+	display: flex;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	margin-bottom: 0.2rem;
+}
+section article:nth-of-type(1) figure{
+	text-align: center;
+	margin-top: 0.24rem;
+	width: 25%;
+	
+}
+section article:nth-of-type(1)  figure span{
+	
+font-size: 0.41rem;
+color: #fdde96;
+line-height: 0.6rem;
+}
+section article:nth-of-type(1)  figure  figcaption{
+	font-size: 0.25rem;
+	line-height:0.45rem ;
+	color: #333333;
+}
+
+section article:nth-of-type(2)
+{
+	height: 1.27rem;
+	background: linear-gradient(to right, #eccdb3,#f2dcc0);
+	margin-bottom: 0.2rem;
+	overflow: hidden;
+	}
+	
+section article:nth-of-type(2) figure{
+	width: 6.85rem;
+	margin-left: 0.38rem;
+	display: flex;
+	align-items: center;
+	margin-top: 0.4rem;
+}
+
+section article:nth-of-type(2) figure p {
+	width: 0.8rem;
+	margin-right: 0.31rem;
+}
+section article:nth-of-type(2) figure p em{
+	font-size: 0.2rem;
+	color: #926248;
+	line-height: 0.34rem;
+}
+section article:nth-of-type(2) figure p img{
+	width: 0.67rem;
+	height: 0.3rem;
+	display: block;
+	margin: auto;
+	
+}
+section article:nth-of-type(2) figure figcaption{
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}
+section article:nth-of-type(2) figure figcaption h1{
+	font-size: 0.28rem;
+	line-height: 0.48rem;
+	color: #926248;
+	box-sizing: border-box;
+	border-left: 1px solid #93644a;
+	padding-left: 0.27rem;
+	
+}
+section article:nth-of-type(2) figure figcaption{
+	line-height: 0.45rem;
+	font-size: 0.25rem;
+	color: #926248;
+}
+
+section article:nth-of-type(3)
+{
+height: 2.8rem;
+margin-bottom: 0.2rem;
+background: #fff;
+
+}
+section article:nth-of-type(3) h2{
+margin-left:0.33rem;
+height: 0.88rem;
+font-size: 0.25rem;
+line-height: 0.88rem;
+border-bottom: 1px solid #f4f4f4;
+
+}
+
+	
+.box{
+	
+	display: flex;
+	height: 1.93rem;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box figure{
+text-align: center;
+
+}
+.box figure span{
+	font-size: 0.44rem;
+	line-height: 0.62rem;
+	
+	color: #c9c9c9;
+}
+.box figure  figcaption p{
+	font-size: 0.21rem;
+	line-height: 0.39rem;
+}
+.box figure  figcaption em{
+	font-size: 0.18rem;
+	line-height: 0.36rem;
+	color: #d1d1d1;
+}
+.box figure {
+	position: relative;
+}
+   .box figure:nth-of-type(2):before{
+	content: '';
+	position: absolute;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: red;
+	right: 0.2rem;
+	top: 0.1rem;
+
+}
+
+.box figure:nth-of-type(3):before{
+	content: '赢现金';
+	position: absolute;
+	width: 0.78rem;
+	height: 0.27rem;
+	background: red;
+	color: #fff;
+	line-height: 0.25rem;
+	font-size: 0.15rem;
+	text-align: center;
+	border-radius: 10px;
+	left: 0.4rem;
+	tab-size: 0.2rem;
+}
+.box figure:nth-of-type(4):before{
+	content: '专享';
+	position: absolute;
+	width: 0.51rem;
+	height: 0.27rem;
+	background: red;
+	color: #fff;
+	line-height: 0.25rem;
+	font-size: 0.15rem;
+	text-align: center;
+	border-radius: 10px;
+	left: 0.4rem;
+	tab-size: 0.2rem;
+}
+
+section article:nth-of-type(4){
+	
+	height: 2.8rem;
+	margin-bottom: 0.2rem;
+	background: #fff;
+	
+	}
+section article:nth-of-type(4) h2{
+margin-left:0.33rem;
+height: 0.88rem;
+font-size: 0.25rem;
+line-height: 0.88rem;
+border-bottom: 1px solid #f4f4f4;
+
+}
+section article:nth-of-type(4) .box {
+	justify-content: flex-start;
+}
+section article:nth-of-type(4) .box figure {
+margin: 0 0.33rem;
+	
+}
+
+footer figure{
+	text-align: center;
+	
+}
+
+ .footer figure span{
+font-size: 0.47rem;
+line-height: 0.63rem;
+}
+
+.footer figure figcaption{
+	font-size: 0.21rem;
+	line-height: 0.43rem;
+	
+	color: #a7a7a7;
+
+}
+
+  
+ .footer figure:nth-of-type(3) span{
+	color: #ffcc33;
+ }
+  .footer figure:nth-of-type(3) figcaption:last-child{
+	  color: black;
+	  
+  }
+  
+  

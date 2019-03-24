@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/caoshi.css" />
+		<link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
+
+	<script>
+	        window.onload = function(){
+	         /*720代表设计师给的设计稿的宽度，你的设计稿是多少，就写多少;100代表换算比例，这里写100是
+	                           为了以后好算,比如，你测量的一个宽度是100px,就可以写为1rem,以及1px=0.01rem等等*/
+	         getRem(750,100)
+	         };
+	         window.onresize = function(){
+	         getRem(750,100)
+	         };
+	         function getRem(pwidth,prem){
+	           var html = document.getElementsByTagName("html")[0];       var oWidth=document.body.clientWidth || document.documentElement.clientWidth;
+	            html.style.fontSize = oWidth/pwidth*prem + "px";
+	        }
+	  </script>
+
+	</head>
+	<body>
+	<header>
+		<h1><span><img src="img/caishi_img/11.png"/></span><p>超市便利</p></h1>
+		<form>
+						<b class="iconfont icon-fangdajing
+		"></b><input type="text" value="请输入商家或者商品名称" />
+					</form>
+	</header>
+	<section>
+		<article>
+			
+				
+		</article>
+		
+		<article>
+			<figure>
+				<h3><span>屈臣氏<span><p>面膜一元抢购</p></h3>
+				<figcaption>
+					<img src="img/caishi_img/02.png"/>
+				</figcaption>
+			</figure>
+			
+			<figure>
+				<h3><span>便利店精选<span><p>冬季应急小物</p></h3>
+				<figcaption>
+					<img src="img/caishi_img/03.png"/>
+				</figcaption>
+			</figure>
+			<figure>
+				<h3><span>7-11<span><p>第二件半价</p></h3>
+				<figcaption>
+					<img src="img/caishi_img/05.png"/>
+				</figcaption>
+			</figure>
+			<figure>
+				<h3><span>派对必备<span><p>7折封顶</p></h3>
+				<figcaption>
+					<img src="img/caishi_img/06.png"/>
+				</figcaption>
+			</figure>
+		</article>
+		<article>
+			<ul>
+				<li><a href="#">闪购优选</a><span></span></li>
+				<li><a href="#">超市卖场</a><span></span></li>
+				<li><a href="#">精选便利</a><span></span></li>
+				<li><a href="#">美妆母婴</a><span></span></li>
+				</ul>
+			
+		</article>
+		<article>
+			<h1>
+				<span>综合排序</span>
+				<em><img src="img/caishi_img/12.png"/>
+				</em>
+				</h1>
+			<p><span>销量</span><span>距离</span></p>
+		</article>
+		
+		<article>
+			<div class="ca">
+				<figure>
+					<span><img src="img/caishi_img/07.png"/></span>
+					<figcaption>
+						<h1>金客隆 (回龙观店)</h1>
+						
+						<ul>
+							<li><a href="#"/><img src="img/caishi_img/09.png"/></a></li>
+							<li><a href="#"/><img src="img/caishi_img/09.png"/></a></li>
+							<li><a href="#"/><img src="img/caishi_img/09.png"/></a></li>
+							<li><a href="#"/><img src="img/caishi_img/09.png"/></a></li>
+							<li><a href="#"/><img src="img/caishi_img/09.png"/></a></li>
+							<li class="ts"><a class href="#"/>4.8</a></li>
+							<li class="yue"><a href="#"/>月售2406</a></li>
+							<li class="xin"><a href="#"/>60分钟</a></li>
+							<li><a href="#"/>1.6km</a></li>
+						
+						</ul>
+						
+						<h2><p><span>起送￥20 | </span><span>配送￥5</span></p><span>美团专送</span></h2>
+					</figcaption>
+					
+					
+				</figure>
+			</div>
+			<ul class="hong">
+				<li><a href="#">3.09折起</a></li>
+				<li><a href="#">领10元卷</a></li>
+				<li><a href="#">首单减15</a></li>
+				<li class="lv"><a href="#">票</a></li>
+			</ul>
+			
+		</article>
+		
+		<article>
+			
+		</article>
+		
+		<article>
+			<figure>
+				<span><img src="img/caishi_img/14.png"/></span>
+				<figcaption>
+					
+					<p>平和琯夕蜜城1...</p>
+					<span>￥4.5</span>
+				</figcaption>
+			</figure>
+			<figure>
+				<span><img src="img/caishi_img/15.png"/></span>
+				<figcaption>
+					
+					<p>稻香村牛舌4块...</p>
+					<span>￥5.4</span>
+				</figcaption>
+			</figure>
+			
+			<figure>
+				<span><img src="img/caishi_img/15.png"/></span>
+				<figcaption>
+					
+					<p>云南丑橘350g</p>
+					<span>￥5.5</span>
+				</figcaption>
+			</figure>
+		</article>
+	</section>
+	</body>
+	</html>

@@ -1,0 +1,456 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption,b{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{
+	text-decoration: none;
+}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;}
+
+html,body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+header{
+	height: 1.81rem;
+	
+}
+
+section{
+	flex: 1;
+overflow: auto;
+}
+
+header h1{
+	display: flex;
+	width: 7.1rem;
+	height: 0.8rem;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+header h1 p{
+	font-size: 0.32rem;
+   letter-spacing: 0.05rem;
+   margin-right: 2.7rem;
+
+}
+
+
+header h1 span img{
+	width: 0.33rem;
+	height: 0.4rem;
+	
+	
+}
+header form{
+	width: 7.1rem;
+	height: 0.6rem;
+	margin: auto;
+	background: #ededed;
+	margin-top: 0.1rem;
+	display: flex;
+	
+}
+
+ header b{
+	display: block;
+	width: 0.56rem;
+	height: 100%;
+	margin-top: 0.07rem;
+	margin-left: 0.25rem;
+	
+}
+
+form .icon-fangdajing{
+	font-size: 0.4rem;
+}
+
+header form input{
+	flex: 1;
+	height:0.60rem;
+	background: 0;
+	border: 0;
+	line-height: 0.7rem;
+}
+
+section{
+	flex: 1;
+	
+}
+
+section article:nth-child(1){
+	height: 1.45rem;
+	display: flex;
+	overflow: hidden;
+	
+}
+
+section article:nth-child(1) img{
+	width:1.21rem;
+	height: 1.07rem;
+	display: block;
+	margin:0  0.1rem;
+}
+section article:nth-child(1) figure{
+	width: 1.41rem;
+	height: 1.45rem;
+}
+
+section article:nth-child(1) figcaption{
+	text-align: center;
+	font-size: 0.25rem;
+	line-height: 0.37rem;
+	
+}
+section article:nth-child(2) 
+{
+	
+	height: 2.00rem;
+	width: 7.1rem;
+	margin: auto;
+	margin-top: 0.16rem;
+	border-top: 1px solid #f4f4f4;
+}
+
+section article:nth-child(2) em img{
+	float: right;
+}
+section article:nth-child(2) h1{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+section article:nth-child(2) p{
+	display: flex;
+	justify-content: space-between;
+}
+section article:nth-child(2) p span{
+	margin-top: 0.35rem;
+}
+section article:nth-child(2) h1 .dian{
+	display: block;
+	position: absolute;
+	width: 0.41rem;
+	height: 0.32rem;
+	right: -0.15rem;
+}
+.xiao{
+	margin: 0 0.62rem;
+}
+
+.ri{
+	margin-left: 2.0rem;
+}
+section article:nth-child(2) ul{
+	height:0.61rem ;
+	width: 100%;
+	
+}
+section article:nth-child(2) ul li {
+	float: left;
+	margin-right: 0.2rem;
+	font-size: 0.24rem;
+	line-height: 0.6rem;
+	height: 0.6rem;
+	width: 1.62rem;
+	text-align: center;
+	background: #f9fbfd;
+	}
+	section article:nth-child(2) ul li  a
+	{
+		color: #bcbfc3;
+	}
+	
+	section article:nth-child(2) ul .tesu{
+		margin-right: 0;
+		position: relative;
+	}
+	section article:nth-child(2) ul .tesu span{
+		
+		width: 0.2rem;
+		height:0.2rem;
+		background: red;
+		border-radius: 50%;
+		position: absolute;
+	}
+	section article:nth-child(3) 
+	{
+		width: 7.1rem;
+		margin: auto;
+		height: 5.25rem;
+		
+	}
+	section article:nth-child(3) figure:nth-of-type(1){
+		display: flex;
+		
+	}
+	
+	section article:nth-child(3) figure:nth-of-type(1) figcaption{
+		width: 5.35rem;
+		height: 5.25rem;
+		
+		margin-left: 0.1rem;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h1{
+		height: 0.52rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h1  span{
+		font-size: 0.31rem;
+		line-height: 0.52rem;
+	}
+	
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h1  p span{
+		width: 0.2rem;
+		height: 0.2rem;
+		background: #c4c4c4;
+		border-radius: 50%;
+		display: block;
+		float: left;
+		margin-top: 0.15rem;
+		margin-right: 0.08rem;
+	}
+	section article:nth-child(3)  ul{
+		width: 5.35rem;
+		height: 0.84rem;
+		display: flex;
+		color: #b6b6b6;
+		flex-wrap: wrap;
+	}
+	section article:nth-child(3)  ul li img{
+		width: 0.19rem;
+		height: 0.19rem;
+	     margin-top: 0.09rem;
+		 margin-right: 0.08rem;
+
+		
+	}
+	section article:nth-child(3)  ul li{
+		width: 0.22rem;
+		height: 0.38rem;
+		float: left;
+		
+	}
+	section article:nth-child(3)  ul li a{
+		color: #b6b6b6;
+	}
+	
+	section article:nth-child(3) .le{
+		width: 3.82rem;
+		height: 0.38rem;
+		display: flex;
+		justify-content: space-between;
+		margin-left: 0.21rem;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption ul h1 span{
+		font-size: 0.2rem;
+		line-height: 0.46rem;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h2{
+		display: flex;
+		
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h2 img{
+		width: 0.27rem;
+		height: 0.3rem;
+		float: left;
+		margin-top: 0.05rem;
+	
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption h2 i{
+		font-size: 0.21rem;
+		line-height: 0.35rem;
+		margin-left: 0.14rem;
+		box-sizing:border-box;
+		padding-bottom: 0.1rem;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption .foot{
+		width: 5.35rem;
+		height: 0.32rem;
+		background: 0;
+		display: flex;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption .foot li{
+		width: 0.86rem;
+		height: 0.32rem;
+		border: 1px solid #fc9a94;
+	   font-size: 0.14rem;
+	  line-height: 0.32rem;
+	   text-align: center;
+	   margin-right: 0.12rem;
+	}
+	
+	section article:nth-child(3) figure:nth-of-type(1) figcaption .foot li a{
+		color: red;
+	}
+	section article:nth-child(3) figure:nth-of-type(1) figcaption .foot .tes{
+		border: 1px solid green;
+		}
+		section article:nth-child(3) figure:nth-of-type(1) figcaption .foot .tes a{
+			color: green;
+		}
+		
+		section article:nth-child(3) figure:nth-of-type(2)
+		{
+			color: red;
+			
+		}
+		
+		.hj{
+			width: 5.35rem;
+			height: 2.61rem;
+			
+			margin-top: 0.15rem;
+			justify-content: space-between;
+			display: flex;
+		}
+		
+		.hj dl{
+			width: 1.71rem;
+			height: 2.6rem;
+			
+			
+		}
+		
+		.hj dl dt img{
+		width: 1.71rem;
+		height: 1.8rem;
+		display: block;
+		}
+		.hj dl dd p{
+			font-size: 0.22rem;
+			line-height: 0.36rem;
+			margin-top:0.1rem ;
+		}
+		.hj dl dd b{
+			font-size: 0.22rem;
+			line-height: 0.36rem;
+			color: red;
+		}
+		section article:nth-child(4)
+		 {
+			 width: 7.1rem;
+			 height: 2.33rem;
+
+			margin: auto;
+		 }
+		section article:nth-child(4) figure:nth-of-type(1){
+			display: flex;
+			
+		}
+		section article:nth-child(4) img{
+			width: 1.56rem;
+			height: 1.22rem;
+		}
+		
+		section article:nth-child(4) figure:nth-of-type(1) figcaption{
+			width: 5.35rem;
+			height: 5.25rem;
+			
+			margin-left: 0.1rem;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption h1{
+			height: 0.52rem;
+			display: flex;
+			justify-content: space-between;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption h1  span{
+			font-size: 0.31rem;
+			line-height: 0.52rem;
+		}
+		
+		section article:nth-child(4) figure:nth-of-type(1) figcaption h1  p span{
+			width: 0.2rem;
+			height: 0.2rem;
+			background: #c4c4c4;
+			border-radius: 50%;
+			display: block;
+			float: left;
+			margin-top: 0.15rem;
+			margin-right: 0.08rem;
+		}
+		section article:nth-child(4)  ul{
+			width: 5.35rem;
+			height: 0.84rem;
+			display: flex;
+			color: #b6b6b6;
+			flex-wrap: wrap;
+		}
+		section article:nth-child(4)  ul li img{
+			width: 0.19rem;
+			height: 0.19rem;
+		     margin-top: 0.09rem;
+			 margin-right: 0.08rem;
+		
+			
+		}
+		section article:nth-child(4)  ul li{
+			width: 0.22rem;
+			height: 0.38rem;
+			float: left;
+			
+		}
+		section article:nth-child(4)  ul li a{
+			color: #b6b6b6;
+		}
+		
+		section article:nth-child(4) .le{
+			width: 3.82rem;
+			height: 0.38rem;
+			display: flex;
+			justify-content: space-between;
+			margin-left: 0.21rem;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption ul h1 span{
+			font-size: 0.2rem;
+			line-height: 0.46rem;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption h2{
+			width: 2.51rem;
+			height: 0.28rem;
+			background: #fff0e9;
+			font-size: 0.2rem;
+			color: #ff8c55;
+			text-align:center;
+			margin-bottom: 0.1rem;
+		}
+	
+		section article:nth-child(4) figure:nth-of-type(1) figcaption .foot{
+			width: 5.35rem;
+			height: 0.32rem;
+			background: 0;
+			display: flex;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption .foot li{
+			width: 0.86rem;
+			height: 0.32rem;
+			border: 1px solid #fc9a94;
+		   font-size: 0.14rem;
+		  line-height: 0.32rem;
+		   text-align: center;
+		   margin-right: 0.12rem;
+		}
+		
+		section article:nth-child(4) figure:nth-of-type(1) figcaption .foot li a{
+			color: red;
+		}
+		section article:nth-child(4) figure:nth-of-type(1) figcaption .foot .tes{
+			border: 1px solid green;
+			}
+			section article:nth-child(4) figure:nth-of-type(1) figcaption .foot .tes a{
+				color: green;
+			}
+			
+			section article:nth-child(4) figure:nth-of-type(2)
+			{
+				color: red;
+				
+			}

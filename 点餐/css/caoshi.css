@@ -1,0 +1,353 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption,b{margin:0;padding:0}
+body{font:12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{
+	text-decoration: none;
+}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;}
+
+html,body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background:linear-gradient(to top ,#f4f4f4 ,#fff)
+}
+
+header{
+	height: 1.81rem;
+	
+}
+
+section{
+	flex: 1;
+overflow: auto;
+}
+
+header h1{
+	display: flex;
+	width: 7.1rem;
+	height: 0.8rem;
+	margin: auto;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+header h1 p{
+	font-size: 0.32rem;
+   letter-spacing: 0.05rem;
+   margin-right: 2.7rem;
+
+}
+
+
+header h1 span img{
+	width: 0.33rem;
+	height: 0.4rem;
+	
+	
+}
+header form{
+	width: 7.1rem;
+	height: 0.6rem;
+	margin: auto;
+	background: #ededed;
+	margin-top: 0.1rem;
+	display: flex;
+	
+}
+
+b{
+	display: block;
+	width: 0.56rem;
+	height: 100%;
+	margin-top: 0.07rem;
+	margin-left: 0.25rem;
+	
+}
+
+form .icon-fangdajing{
+	font-size: 0.4rem;
+}
+
+header form input{
+	flex: 1;
+	height:0.60rem;
+	background: 0;
+	border: 0;
+	line-height: 0.7rem;
+}
+section article:nth-child(1)
+{
+	width: 7.1rem;
+	height: 3.61rem;
+	margin: auto;
+	background: url(../img/caishi_img/01.png);
+	background-size: contain;
+}
+
+section article:nth-child(2)
+{
+	width: 7.1rem;
+	margin: auto;
+	margin-top: 0.2rem;
+	
+}
+section article:nth-child(2) figure{
+	width: 1.75rem;
+	height: 2.33rem;
+	background: #f9f9f9;
+}
+section article:nth-child(2) img{
+	width: 1.75rem;
+	height: 1.36rem;
+}
+section article:nth-child(2) h3{
+	margin-left: 0.17rem;
+}
+section article:nth-child(2) h3 span{
+	font-size: 0.25rem;
+	font-weight: bold;
+	line-height: 0.35rem;
+}
+section article:nth-child(2) h3 p{
+	font-size: 0.2rem;
+	color:#a1a1a1;
+	line-height: 0.3rem;
+	
+	
+}
+section article:nth-child(3)
+{
+	height: 0.73rem;
+	margin-top: 0.27rem;
+	border-bottom: 1px solid #e4e4e4;
+}
+section article:nth-child(3) ul{
+	display: flex;
+	justify-content: space-around;
+	
+}
+section article:nth-child(3) ul li{
+	  text-align: center;
+	  width: 1.98rem;
+	   line-height: 0.73rem;
+	 font-size: 0.29rem;
+	 display: flex;
+	 flex-direction: column;
+	align-items: center;
+}
+section article:nth-child(3) ul li a{
+	color: #5c5c5c;
+}
+section article:nth-child(3) ul li span{
+width: 0.41rem;
+height: 0.05rem;
+background: #ffd161;
+display: block;
+text-align: center;
+}
+section article:nth-child(3) ul li:first-child a{
+	color:#333333;
+}
+
+section article:nth-child(4)
+{
+	width: 7.1rem;
+	height: 0.54rem;
+	margin: auto;
+	margin-top:0.22rem;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.35rem;
+	
+	
+}
+
+	section article:nth-child(4) h1{
+		height: 100%;
+	}
+	section article:nth-child(4) img{
+		width: 0.31rem;
+		height: 0.54rem;
+		float: right;
+	}
+	section article:nth-child(4) h1 span{
+		line-height: 0.54rem;
+		font-size: 0.27rem;
+		box-sizing: border-box;
+		padding-bottom: 0.3rem;
+		color:#3d3d3d;
+		
+		
+	}
+	
+		section article:nth-child(4) p span{
+			font-size: 0.25rem;
+			color:#666666;
+			line-height: 0.54rem;
+
+		}
+		
+		section article:nth-child(4) p span:first-child{
+			margin-right: 0.48rem;
+}
+		section article:nth-child(5) {
+			
+			overflow: hidden;
+			width: 7.1rem;
+			height: 3.15rem;
+			margin: auto;
+			background:url(../img/caishi_img/08.png) no-repeat;
+			background-size: 7.1rem 1.26rem ;
+			
+		}
+		section article:nth-child(5) div:nth-of-type(1){
+			width: 6.7rem;
+			height: 1.41rem;
+			margin: auto;
+			margin-top: 1.15rem;
+			
+			
+		} 
+		
+		.ca span img{
+			width: 1.56rem;
+			height: 0.78rem;
+			
+		}
+		
+		.ca figure{
+			display: flex;
+			justify-content: space-between;
+			
+		}
+.ca figcaption{
+	width:5rem;
+	height: 1.41rem;
+}
+
+..ca h1{
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+}
+
+.ca ul {
+	display: flex;
+	justify-content: space-between;
+}
+.ca ul img{
+	width: 0.19rem;
+	height: 0.19rem;
+	
+}
+
+.ca ul li{
+	font-size: 0.2rem;
+}
+
+.ca ul li a{
+	color: #838383;
+}
+
+.ca ul .ts a {
+	color:#ffd161;
+}
+.ca .xin{
+	border-right: 1px solid black;
+	box-sizing: border-box;
+	padding-right: 0.1rem;
+}
+
+.ca .yue{
+	margin-right: 0.3rem;
+}
+
+.ca h2{
+	display: flex;
+	justify-content: space-between;
+	height: 0.48rem;
+}
+
+.ca h2 p span{
+	color:#737373 ;
+	font-size: 0.22rem;
+	line-height: 0.48rem;
+	background: 0;
+	
+}
+
+.ca h2 span{
+	margin-top: 0.1rem;
+	font-size: 0.22rem;
+	line-height: 0.4rem;
+	color: #000000;
+	background: #ffd161;
+border-radius: 20%;	
+}
+
+.hong{
+	display: flex;
+	
+}
+
+.hong li {
+	text-align: center;
+	width: 1rem;
+	height: 0.27rem;
+	line-height: 0.27rem;
+	font-size: 0.2rem;
+	border: 1px solid red;
+	margin-right: 0.13rem;
+	
+}
+
+.hong li a{
+	color: red;
+}
+
+.hong .lv a{
+	color:#1eb3a3;
+	
+}
+
+.hong .lv {
+	border: 1px solid #1eb3a3;
+	width: 0.36rem;
+}
+
+section article:nth-child(6)
+ {
+	 width: 7.1rem;
+	 height: 2.2rem;
+	 margin: auto;
+	 background: url(../img/caishi_img/13.png);
+	 background-size: contain;
+	 margin-bottom: 0.14rem;
+	
+ }
+ section article:nth-child(7)
+ {
+	 width: 7.1rem;
+	 height: 2.9rem;
+	 display: flex;
+	 justify-content: space-between;
+	 margin: auto;
+ }
+ section article:nth-child(7) img{
+	 width: 1.77rem;
+	 height: 1.61rem;
+ }
+section article:nth-child(7) figcaption p {
+	font-size: 0.22rem;
+	line-height: 0.42rem;
+	color: #333333;
+	margin-left: 0.11rem;
+	
+}
+section article:nth-child(7) figcaption span {
+	color: #fb4e44;
+	font-size: 0.23rem;
+	margin-left: 0.11rem;
+
+}

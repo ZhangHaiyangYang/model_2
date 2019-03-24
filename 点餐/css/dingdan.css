@@ -1,0 +1,225 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,figure,figcaption{margin:0;padding:0}
+body{font:0.12px "微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+a{color:#172c45;text-decoration:none}
+a:hover{text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;}
+html,body{
+	height: 100%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+header{
+	height: 1.5rem;
+	
+}
+section{
+	flex: 1;
+	background: linear-gradient(to top ,#f4f4f6 ,#f8f8fa);
+	overflow: auto;
+}
+
+
+header article:nth-of-type(1)
+{
+	height: 0.57rem;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+header article:nth-of-type(1) h1{
+	font-size: 0.33rem;
+	line-height: 0.57rem;
+	margin: auto;
+	margin-left: 3.65rem;
+}
+header article:nth-of-type(1) span
+{
+	font-size:0.37rem;
+	color: #6b6b6b;
+	line-height: 0.67rem;
+}
+header  ul li{
+	font-size: 0.28rem;
+	line-height: 0.9rem;
+	height: 0.9rem;
+	text-align: center;
+	
+}
+header  ul{
+	border-bottom: 1px solid #e0e0e0;
+	display: flex;
+	justify-content: space-around;
+	
+}
+header  ul li a{
+	color: #676767;
+}
+header  ul li:nth-of-type(1) a{
+	color: black;
+}
+header  ul li:nth-of-type(1) span{
+	width: 0.42rem;
+	height: 0.05rem;
+	background: #ffd161;
+	display: block;
+	margin-left: 0.1rem;
+}
+section article
+{
+	width: 7.1rem;
+	height: 3.3rem;
+	margin: auto;
+	background: #fff;
+	margin-top: 0.21rem;
+	overflow: hidden;
+	margin-bottom: 0.21;
+
+}
+section article figure{
+	width: 6.51rem;
+	height: 2.85rem;
+	margin: auto;
+	margin-top: 0.19rem;
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+section article figure img {
+	float: left;
+	width: 0.68rem;
+	height: 0.68rem;
+	margin-top: 0.12rem;
+	
+	
+}
+section article figure figcaption{
+	width: 5.60rem;
+	height: 2.85rem;
+	margin-left: 0.21rem;
+	
+	
+}
+section article figure figcaption .fig_h{
+	width: 5.60rem;
+	height: 1.06rem;
+	
+	
+	display: flex;
+	justify-content: space-between;
+}
+section article figure figcaption .fig_h dl:nth-child(1) dt{
+	
+	display: flex;
+	justify-content: space-between;
+	width: 3.85rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+section article figure figcaption .fig_h dl dt h1{
+	font-size: 0.27rem;
+	line-height: 0.51rem;
+	
+}
+section article figure figcaption .fig_h dl dt span{
+	font-size: 0.24rem;
+	line-height: 0.5rem
+}
+section article figure figcaption .fig_h dl dd ul li {
+	float: left;
+	width: 0.85rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	text-align: center;
+	border: 1px solid #fdc9c6;
+	margin-right: 0.11rem;
+	font-size: 0.15rem;
+	
+}
+section article figure figcaption .fig_h dl dd ul li a{
+	color: #fb4e44;
+}
+section article figure figcaption .fig_h dl dd ul li:last-child{
+	border: 0;
+  text-align: left;
+}
+
+.dd{
+	font-size: 0.27rem;
+	color: #666666;
+	line-height:0.87rem ;
+}
+section article figure figcaption  h3 {
+	display: flex;
+	justify-content: space-between;
+	border-top: 2px solid #eeeeee;
+	margin-left: 0.1rem;
+	}
+	
+	section article figure figcaption h3 p{
+		font-size: 0.26rem;
+		line-height: 1.06rem;
+		
+	}
+	section article figure figcaption h3 span{
+
+	font-size: 0.21rem;
+	line-height: 1.01rem;
+}
+section article figure figcaption form{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 0.1rem;
+	
+}
+section article figure figcaption form input{
+	display: block;
+	width: 1.44rem;
+	height: 0.62rem;
+	border: 1px solid #c4c4c4;
+	background: 0;
+	line-height: 0.62rem;
+	text-align: center;
+	font-size: 0.27rem;
+	
+}
+section article figure figcaption form input[ type="submit"]
+{
+	margin-left: 0.22rem;
+}
+footer{
+	height: 1rem;
+	background: #f8f8f9;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+
+}
+footer figure .icon-shouye{
+font-size: 0.46rem;
+line-height: 0.5rem;
+
+}
+
+footer .yan span
+{
+	color: #ffbb22;
+
+}
+footer figure figcaption{
+	font-size: 0.21rem;
+	line-height: 0.32rem;
+	color: #d9d9da;
+}
+footer figure  {
+	text-align: center;
+}
+footer .yan figcaption{
+color: #000000;
+}
